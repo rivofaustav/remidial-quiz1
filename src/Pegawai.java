@@ -15,7 +15,7 @@ public class Pegawai {
     
     public String info(){
         String info = "";
-        info +="Nama : " + this.nama + "\n";
+        info +="Nama Pegawai : " + this.nama + "\n";
         info +="Pekerjaan : " + this.pekerjaan + "\n";
         return info;
     }
