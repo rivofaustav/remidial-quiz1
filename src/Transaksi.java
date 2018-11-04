@@ -13,11 +13,13 @@ public class Transaksi {
     private Service service;
     private Pegawai pegawai;
 
-    public Transaksi(Mobil mobil, Service service, Pegawai pegawai) {
+    Transaksi(Mobil mobil, Service service, Pegawai pegawai) {
         this.mobil = mobil;
         this.service = service;
         this.pegawai = pegawai;
     }
+    
+
     
     
 }
