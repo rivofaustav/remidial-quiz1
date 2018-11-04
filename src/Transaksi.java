@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  *
@@ -19,7 +14,16 @@ public class Transaksi {
         this.pegawai = pegawai;
     }
     
-
+    public int totalBiaya(){
+        return service.gerHarga() + mobil.getHarga();
+    }
+    
+    public void print(){
+        System.out.println(pegawai.info());
+        System.out.println(mobil.info());
+        System.out.println(service.info());
+        System.out.println("Total Biaya : " + totalBiaya());
+    }
     
     
 }
